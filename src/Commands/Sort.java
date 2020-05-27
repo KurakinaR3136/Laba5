@@ -6,7 +6,7 @@ import Controller.OrganizationCollection;
 /**
  * sorts the elements of a collection
  *
- * @author Diana
+ * @author Elizaveta
  */
 
 public class Sort implements CommandWithoutArg {
