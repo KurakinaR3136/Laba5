@@ -23,8 +23,8 @@ public class Remove_by_id implements Commandable {
             Iterator<Organization> it = (Iterator<Organization>) collection.getCollection().iterator();
             while (it.hasNext()) {
                 Organization organization = (Organization) it.next();
-                int humanId = (int) organization.getId();
-                if (id == humanId) {
+                int OrganizationId = (int) organization.getId();
+                if (id == OrganizationId) {
                     it.remove();
                     ans = "Организация успешно удалена.";
                 }
